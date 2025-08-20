@@ -1,4 +1,4 @@
-def imageName = 'hariharan/ttr'
+def imageName = 'hari31862/ttr'
 def version   = '2.1.5'
 pipeline {
     agent any
