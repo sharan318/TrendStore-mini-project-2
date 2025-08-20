@@ -1,4 +1,4 @@
-
+def imageName = 'hariharan/ttr'
 pipeline {
     agent any
 
