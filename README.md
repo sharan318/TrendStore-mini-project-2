@@ -8,7 +8,7 @@
 3. DockerHub
       Create a DockerHub repository.
      Push the built Docker image to DockerHub. throught jenkines
-4. Kubernetes (EKS)
+4. Kubernetes (EKS) - file AWS
       Setup AWS EKS cluster using Terraform.
       Confirm cluster connectivity with kubectl.
       Write deployment.yaml and service.yaml.
