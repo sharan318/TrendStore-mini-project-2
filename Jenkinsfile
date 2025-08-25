@@ -4,7 +4,7 @@ pipeline {
     agent any
     environment {
         AWS_DEFAULT_REGION='us-east-1'
-        EKS_CLUSTER_NAME = 'eks-cluster'
+        EKS_CLUSTER_NAME = 'guvi-devops-eks'
     }
     stages {
         stage('Build') {
