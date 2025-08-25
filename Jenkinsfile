@@ -2,7 +2,10 @@ def imageName = 'hari31862/ttr'
 def version   = '2.1.5'
 pipeline {
     agent any
-
+    environment {
+        AWS_DEFAULT_REGION='us-east-1'
+        EKS_CLUSTER_NAME = 'eks-cluster'
+    }
     stages {
         stage('Build') {
             steps {
